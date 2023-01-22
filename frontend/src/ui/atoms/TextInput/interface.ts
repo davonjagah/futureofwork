@@ -1,0 +1,27 @@
+export type InputProps = {
+	name?: string;
+	variant?: 'primary' | 'secondary';
+	value?: string;
+	type?: string;
+	label?: string;
+	className?: string;
+	optional?: boolean;
+	optionalText?: string;
+	placeholder?: string;
+	isValid?: boolean;
+	errorText?: string;
+	hasFocus?: boolean;
+	onBlur?: (e: React.FocusEvent<HTMLInputElement>) => void;
+	onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+	onKeyUp?: (e: React.KeyboardEvent<HTMLInputElement>) => void;
+	autoComplete?: string;
+	disabled?: boolean;
+	id?: string;
+	tabIndex?: number;
+	isRequired?: boolean;
+	isReadOnly?: boolean;
+	width?: string;
+	height?: string;
+	crossIconOnClick?: () => void;
+	textCenter?: boolean;
+};
